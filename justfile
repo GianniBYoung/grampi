@@ -2,4 +2,4 @@ default:
     @just --list
 
 build:
-    echo "poddin it"
+    sudo podman build -t grampi:latest .
